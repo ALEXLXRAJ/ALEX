@@ -1,0 +1,176 @@
+<html>
+  <head>
+    <title>lx</title>
+    <style>
+    *{
+      Margin: 0;
+      Padding: 0;
+    }
+     .header{
+       Background: black;
+       height: 100%;
+     }
+    .nav{
+      box-shadow: 2px 0.5px 2px 2px white;
+      
+      Height: 100px;
+    }
+    .left{
+      Display: flex;
+      Justify-content: space-around;
+      
+    }
+     ul{
+     Display: flex;
+     list-style: none;
+     Margin-top: 25px;
+    }
+    a{
+      Text-decoration: none;
+      Margin: 0px 20px;
+      color: white;
+      Font-size: 30px;
+      
+    }
+    a:hover{
+      Border-bottom: 2px solid white;
+    }
+    span{
+      color: red;
+    }
+    h1{
+      Margin-top: 13px;
+      color: white;
+      Font-size: 60px;
+    }
+    .main h1{
+    Text-align: center;
+    Margin-top: 300px;
+    Font-size: 60px;
+  }
+    p{
+    color: white;
+    Text-align: center;
+    Font-size: 60px;
+    Margin-top: 70px;
+    Letter-spacing: 1px;
+    word-spacing: 1px;
+    Padding: 0px 7px;
+  }
+  .main li{
+   Text-align: center;
+   Margin-top: 70px;
+ }
+ .main a{
+   Border: 7px solid red;
+   Text-align: center;
+   border-radius: 10px;
+   color: white;
+   font-weight: 700;
+   Background: black;
+   Padding: 10px;
+   Font-size: 60px;
+ }
+ footer{
+   Margin-top: 430px;
+   Text-align: center;
+   Border: 2px solid white;
+   Padding: 20px;
+   border-radius: 20px;
+ }
+.p{
+  color: rgb(253,166,166);
+  Font-size: 40px;
+  
+}
+    /* //// media queries start //// */
+    
+    @media (max-width: 500px){
+     .header .nav{
+       height: 60px;
+     }
+    .left ul{
+      Margin-top: 18px;
+    }
+    .left a{
+      Font-size: 15px;
+      font-weight: 700;
+      Margin: 10px;
+    }
+   .left h1{
+    Font-size: 30px;
+    font-weight: 700 ;
+   }
+  .main h1{
+    Text-align: center;
+    Margin-top: 70px;
+    Font-size: 24px;
+  }
+  p{
+    color: white;
+    Text-align: center;
+    Font-size: 20px;
+    Margin-top: 20px;
+    Letter-spacing: 1px;
+    word-spacing: 1px;
+    Padding: 0px 4px;
+  }
+ .main li{
+   Text-align: center;
+   Margin-top: 20px;
+ }
+ .main a{
+   Border: 2px solid white;
+   Text-align: center;
+   border-radius: 5px;
+   color: red;
+   font-weight: 700;
+   Background: #fff ;
+   Padding: 3px;
+   Font-size: 20px;
+ }
+ footer{
+   Margin-top: 150px;
+   Text-align: center;
+   Border: 2px solid white;
+   Padding: 5px;
+   border-radius: 10px;
+ }
+.p{
+  color: rgb(253,166,166) ;
+  Font-size: 15px;
+  font-weight: 700;
+  Padding: 10px;
+}
+    }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="nav">
+       <div class="left">
+        <h1>A<span>L</span>EX</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        </div>
+      </div>
+      <div class="main">
+        <h1>HELLO EVERYONE
+        <br> <br>I  <span>AM</span> ALE<span>X</span></h1>
+        
+        <p>AGAR KISI KO APNE LIYE EK PROFESSIONAL WEBSITE BANWANi HAI TO MUJHE WHATSAPP MASSAGE KRE </p>
+        <li><a href="https://api.whatsapp.com/send?phone=+916232051574">CONTACT</a></li>
+        
+      </div>
+        <footer>
+      <y class="p">@WEBSITE DEVELOPMENT BY ALEX RAJPUT<br>
+      Gmail tbnmst@gmail.com <br>WhatsApp +91 6232051574G
+      </y>
+    </footer>
+    </div>
+  
+  </body>
+</html>
